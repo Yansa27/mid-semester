@@ -64,7 +64,7 @@ int main() {
     root->right->left = createNode(0);
     root->right->right = createNode(0);
     root->left->left->left = createNode(7);
-    root->left->left->right = createNode(0);
+    root->left->left->right = createNode(3);
 
     cout << "Inorder Traversal: ";
     inorderTraversal(root);
